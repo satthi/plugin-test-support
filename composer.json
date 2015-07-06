@@ -1,0 +1,33 @@
+{
+    "name": "satthi/plugin-test-support",
+    "description": "CakePHP PluginTestSupport",
+    "type": "cakephp-plugin",
+    "keywords": ["cakephp", "test", "plugin"],
+    "homepage": "https://github.com/satthi/plugin-test-support",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Satoru Hagiwara",
+            "role": "Author"
+        }
+    ],
+    "support": {
+        "source": "https://github.com/satthi/plugin-test-support"
+    },
+    "require": {
+        "cakephp/cakephp": "~3.0"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {
+            "PluginTestSupport\\Test\\": "tests"
+        }
+    },
+    "autoload-dev": {
+    },
+    "suggest": {
+    },
+    "extra": {
+    }
+}
